@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>TechWave Podcast</title>
 </head>
@@ -15,7 +16,7 @@
    
     <div class="flex items-center gap-2 flex-1">
            <span class="text-4xl font-bold">
-        Tech<span class="bg-gradient-to-b from-pink-400 to-purple-600 bg-clip-text text-transparent">Wave
+        Tech<span class="bg-linear-to-l from-purple-500 to-pink-500 bg-clip-text text-transparent">Wave
               </span>
           </span>
         </div>
@@ -27,8 +28,8 @@
       <li class="hover:text-white transition cursor-pointer">Host</li>
     </ul>
 
-    <button class="hidden lg:block bg-linear-to-l from-purple-500 to-pink-500 px-6 py-2 rounded-full text-[16px] hover:scale-105 transition cursor-pointer">
-Subscribe
+    <button class="hidden lg:block bg-linear-to-l from-purple-500 to-pink-500 px-6 py-2 rounded-full font-semibold text-[16px] hover:scale-105 transition cursor-pointer">
+Subscribe <i class="fa-solid fa-arrow-right-long"></i>
 </button>
 
 <div class="lg:hidden text-2xl">
@@ -37,6 +38,103 @@ Subscribe
 
   </nav>
 </header>
+
+<section class="relative w-full bg-[#0b0120] overflow-hidden">
+
+ 
+  <img
+    src="assets/hero-bg.png"
+    alt="Wave Line"
+    class="absolute left-1/2 top-[48%]
+           -translate-x-1/2 -translate-y-1/2
+           sm:w-[140%] md:w-full
+           max-w-[1440px]
+           mx-auto w-full
+           opacity-90 pointer-events-none"
+  />
+
+ 
+  <div class="relative z-10 max-w-7xl mx-auto
+              px-4
+              pt-20 sm:pt-24 pb-24
+              flex flex-col items-center text-center">
+
+   
+    <div
+      class="relative flex items-center justify-center
+             w-[220px] h-[220px]
+             sm:w-[260px] sm:h-[260px]
+            md:w-[330px] md:h-[325px]">
+
+      
+      <img
+        src="assets/hero-circle.png"
+        class="absolute inset-0 w-full h-full"
+      />
+
+      
+      <img
+        src="assets/microphone.png"
+        class="relative
+               w-[200px] h-[200px]
+               sm:w-[150px] sm:h-[150px]
+               md:w-[200px] md:h-[200px]"
+      />
+
+     
+      <span
+        class="absolute top-2 right-3
+               sm:top-3 sm:right-4
+               bg-green-400 text-black
+               text-[10px] sm:text-xs md:text-sm
+               font-bold px-3 py-1 sm:px-4 sm:py-2
+               rounded-full">
+        NEW
+      </span>
+    </div>
+
+    
+    <h1 class="mt-8 text-[60px] sm:text-4xl md:text-5xl font-extrabold">
+      TechWave
+    </h1>
+
+    
+    <p class="mt-4 max-w-sm sm:max-w-md
+              text-gray-300
+              text-sm sm:text-base leading-relaxed">
+      Your daily dose of tech insights, productivity hacks, and personal growth
+    </p>
+
+    
+    <div class="mt-6 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+
+      <button
+        class="flex items-center justify-center gap-2
+               px-6 py-3 text-[16px] sm:text-base font-semibold
+               rounded-full w-full sm:w-auto cursor-pointer
+               bg-linear-to-l from-purple-500 to-pink-500
+               hover:scale-105 transition">
+        <img src="assets/spotify.png" class="w-4 h-4" />
+        Listen On Spotify
+      </button>
+
+      <button
+        class="flex items-center justify-center gap-2
+               px-6 py-3 text-[16px]sm:text-base font-semibold
+               rounded-full w-full sm:w-auto
+               border-2 border-amber-300 cursor-pointer
+               hover:scale-105 transition">
+        <img src="assets/message.png" class="w-4 h-4" />
+        Subscribe
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+
+
   
 </body>
 </html>
