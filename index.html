@@ -44,94 +44,107 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
  
   <img
     src="assets/hero-bg.png"
-    alt="Wave Line"
-    class="absolute left-1/2 top-[48%]
-           -translate-x-1/2 -translate-y-1/2
-        
-           sm:w-[140%] md:w-full
-           max-w-[1440px]
-           mx-auto w-full
-           opacity-90 pointer-events-none"
-  />
+    alt=""
+        class="absolute inset-0
+         w-full h-full
+         object-cover
+         opacity-90
+         pointer-events-none
+         animate-pulse"/>
+  
+  <div
+    class="relative z-10 max-w-7xl mx-auto
+           px-4
+           pt-20 pb-28
+           flex flex-col items-center text-center">
 
- 
-  <div class="relative z-10 max-w-7xl mx-auto
-              px-4
-              pt-20 sm:pt-24 pb-24
-              flex flex-col items-center text-center">
-
-   
     <div
       class="relative flex items-center justify-center
              w-[220px] h-[220px]
-             sm:w-[260px] sm:h-[260px]
-            md:w-[330px] md:h-[325px]">
+             sm:w-[280px] sm:h-[280px]
+             md:w-[340px] md:h-[340px]
+             group">
 
-      
       <img
         src="assets/hero-circle.png"
-        class="absolute inset-0 w-full h-full"
-      />
+        alt=""
+        class="absolute inset-0 w-full h-full"/>
 
       
       <img
-        src="assets/microphone.png"
-        class="relative
-               w-[150px] h-[200px] 
-               ml-[41px] 
-               p-[8.50px]
+  src="assets/microphone-filled.png"
+  alt="Microphone"
+  class="relative z-10
+         w-[140px] sm:w-[158px] md:w-[190px]
+         transition-transform duration-500 ease-out
+       
+         lg:group-hover:size-50 transform-3d 
+         sm:group-hover:size-30 
+         group-hover:rotate-x-45
+         group-hover:rotate-y-180"/>
+
 
      
       <span
-        class="absolute top-2 right-3
+         class="absolute top-1 right-2
                sm:top-3 sm:right-4
                bg-green-400 text-black
-               text-[10px] sm:text-xs md:text-sm
-               font-bold px-3 py-1 sm:px-4 sm:py-2
+               lg:text-[20px] sm:text-xs
+               font-bold px-2 sm:px-3 py-1
                rounded-full">
         NEW
       </span>
     </div>
 
     
-    <h1 class="mt-8 text-[60px] sm:text-4xl md:text-5xl font-extrabold">
+    <h1
+      class="mt-10 text-5xl sm:text-4xl md:text-5xl
+             font-extrabold tracking-wide">
       TechWave
     </h1>
 
     
-    <p class="mt-4 max-w-sm sm:max-w-md
-              text-gray-300
-              text-sm sm:text-base leading-relaxed">
-      Your daily dose of tech insights, productivity hacks, and personal growth
+    <p
+      class="mt-4 max-w-md
+             text-gray-300
+             text-sm sm:text-base leading-relaxed">
+      Your daily dose of tech insights, productivity hacks,
+      and personal growth.
     </p>
 
-    
-    <div class="mt-6 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+   
+    <div
+      class="mt-8 flex flex-row sm:flex-row
+             gap-4 w-full sm:w-auto">
 
       <button
-        class="flex items-center justify-center gap-2
-               px-6 py-3 text-[16px] sm:text-base font-semibold
-               rounded-full w-full sm:w-auto cursor-pointer
+        class="w-full sm:w-auto
+               flex items-center justify-center gap-2
+               px-6 py-3
+               rounded-full
+               text-sm sm:text-base font-semibold
                bg-linear-to-l from-purple-500 to-pink-500
                hover:scale-105 transition">
         <img src="assets/spotify.png" class="w-4 h-4" />
-        Listen On Spotify
+        Listen on Spotify
       </button>
 
       <button
-        class="flex items-center justify-center gap-2
-               px-6 py-3 text-[16px]sm:text-base font-semibold
-               rounded-full w-full sm:w-auto
-               border-2 border-amber-300 cursor-pointer
+        class="w-full sm:w-auto
+               flex items-center justify-center gap-2
+               px-6 py-3
+               rounded-full
+               text-sm sm:text-base font-semibold
+               border border-yellow-400
                hover:scale-105 transition">
         <img src="assets/message.png" class="w-4 h-4" />
         Subscribe
       </button>
 
     </div>
+
   </div>
 </section>
-
 
 <section class="py-20">
   <div class="max-w-7xl mx-auto px-4 text-center">
@@ -170,7 +183,7 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
 <section class="py-24 bg-[#12002f]">
   <div class="max-w-7xl mx-auto px-4">
 
-    <h2 class="text-5xl md:text-4xl font-bold text-center mb-16">
+    <h2 class=" animate-pulse text-5xl md:text-4xl font-bold text-center mb-16">
       Why Choose TechWave
     </h2>
 
@@ -178,7 +191,7 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
       
-      <div class="lg:row-span-2 bg-[#1b0145] rounded-2xl p-8">
+      <div class="lg:row-span-2 bg-[#20064a] rounded-2xl p-8">
         <img src="assets/headphone.png" class="w-10 mb-6" />
         <h3 class="text-[24px] font-bold mb-4">
           Premium Audio Quality
@@ -240,7 +253,7 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
 <section class="py-20">
   <div class="max-w-7xl mx-auto px-4">
 
-    <h2 class="text-5xl font-bold text-center mb-12">Featured Episodes</h2>
+    <h2 class=" animate-pulse text-5xl font-bold text-center mb-12">Featured Episodes</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
@@ -248,7 +261,7 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
         
         <div class="p-4">
           
-          <iframe class=" border-2 rounded-xl  w-[350px] h-[350px] width="560" height="315" src="https://www.youtube.com/embed/QOKLW5ITEiI?si=z0ghgr92GHhtdEm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <a href="https://www.youtube.com/watch?v=QOKLW5ITEiI" target="_blank"> <iframe class=" border-2 rounded-xl  w-[350px] h-[350px] width="560" height="315" src="https://www.youtube.com/embed/QOKLW5ITEiI?si=z0ghgr92GHhtdEm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </a><br>
           <h3 class=" text-2xl font-bold">The Future of AI in Everyday Life</h3>
           <p class="text-gray-400 text-sm mt-2">
             Exploring how artificial intelligence is <br>transforming our 
@@ -263,9 +276,9 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
        
         <div class="p-4">
          
-           <iframe class=" border-2 rounded-xl w-[350px] h-[350px]
-           " width="560" height="315" src="https://www.youtube.com/embed/tlFGOSEI_lo?si=Nngmt6VqkBvPCopH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+          <a href="https://www.youtube.com/watch?v=tlFGOSEI_lo&t=30s">  <iframe class=" border-2 rounded-xl w-[350px] h-[350px]
+           " width="560" height="315" src="https://www.youtube.com/embed/tlFGOSEI_lo?si=Nngmt6VqkBvPCopH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+            </a>
           <h3 class="font-bold text-2xl">Building Better Habits for Remote Work</h3>
           <p class="text-gray-400 text-sm mt-2">
             ractical strategies for staying productive<br> and maintaining work-life balance in a remote environment.
@@ -277,8 +290,8 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
       <div class="bg-[#1b0145] rounded-xl overflow-hidden">
         
         <div class="p-4">
-         
-          <iframe class=" border-2 rounded-xl w-[350px] h-[350px] width="560" height="315" src="https://www.youtube.com/embed/WvGHbDpv24k?si=6SwUvk-ZEkPoXv0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=WvGHbDpv24k&t=1s">  
+          <iframe class=" border-2 rounded-xl w-[350px] h-[350px] width="560" height="315" src="https://www.youtube.com/embed/WvGHbDpv24k?si=6SwUvk-ZEkPoXv0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </a> <br>
            <h3 class="font-bold text-2xl">Career Growth in Tech: A Roadmap</h3>
           <p class="text-gray-400 text-sm mt-2">
             Expert advice on navigating your tech<br> career from junior developer to senior <br> leadership roles.
@@ -372,6 +385,68 @@ Subscribe <i class="fa-solid fa-arrow-right-long"></i>
   </div>
 </section>
 
+<footer class="relative w-full bg-[#0b0120] overflow-hidden mt-24">
+
+  
+  <img
+    src="assets/footer-bg.png"
+    alt="Wave"
+    class="absolute left-1/2 top-1/2
+           -translate-x-1/2 -translate-y-1/2
+           w-full max-w-[1400px]
+           opacity-40 pointer-events-none"/>
+
+ 
+  <div class="relative z-10 max-w-7xl mx-auto px-4 py-20 text-center">
+
+   
+    <span class="text-6xl font-bold">
+        Tech<span class="bg-linear-to-l from-purple-500 to-pink-500 bg-clip-text text-transparent">Wave
+              </span>
+          </span>
+
+    
+   <div class="mt-6 flex flex-wrap justify-center items-center gap-x-6 gap-y-3">
+  
+  <span
+    class="flex items-center gap-3 px-3 py-1 rounded-full transition
+           hover:text-pink-400 cursor-pointer">
+    <img src="assets/spotify.png" class="w-4 h-4"/>
+    Spotify
+  </span>
+
+  <span
+    class="flex items-center gap-3 px-3 py-1 rounded-full transition
+           hover:text-pink-400 cursor-pointer">
+    <img src="assets/apple-podcast.png" class="w-4 h-4" />
+    Apple Podcasts
+  </span>
+
+  <span
+    class="flex items-center gap-3 px-3 py-1 rounded-full transition
+           hover:text-pink-400 cursor-pointer">
+    <img src="assets/youtube-podcast.png" class="w-4 h-4"/>
+    YouTube
+  </span>
+
+  <span
+    class="flex items-center gap-3 px-3 py-1 rounded-full transition
+           hover:text-pink-400 cursor-pointer">
+    <img src="assets/twitter.png" class="w-4 h-4"/>
+    Twitter
+  </span>
+
+</div>
+
+
+
+   
+    <p class="mt-8 text-[20px] text-gray-400">
+      © 2026 TechWave Podcast. All rights reserved.
+    </p>
+
+  </div>
+</footer>
 
 
 
